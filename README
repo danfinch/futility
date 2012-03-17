@@ -1,0 +1,21 @@
+
+Futility is a minimal F# utility library.
+
+  * Curried equivalents of common BCL methods
+  * Limited selection of general purpose functions and operators
+  * Abbreviations for common BCL and F# types
+  * Fills in gaps in FSharp.Core
+  
+Dependencies:
+  
+  * FSharp PowerPack
+
+License: Apache 2.0
+
+Copyrights:
+
+  * All code (c) Promitheia 2010-2012
+
+Maintainers:
+	* Dan Finch (d@nfin.ch)
+  * Daniel Jackson (daniel@thinkhard.net)
