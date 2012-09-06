@@ -5,16 +5,14 @@ Futility is a minimal F# utility library.
   * Limited selection of general purpose functions and operators
   * Abbreviations for common BCL and F# types
   * Fills in gaps in FSharp.Core
+  * ResizeArray module borrowed from PowerPack
   
-Dependencies:
-  
-  * FSharp PowerPack
-
 License: Apache 2.0
 
 Copyrights:
 
-  * All code (c) Promitheia 2010-2012
+  * (c) Promitheia 2010-2012, except:
+  * ResizeArray.fs (c) Microsoft
 
 Maintainers:
 	* Dan Finch (d@nfin.ch)
