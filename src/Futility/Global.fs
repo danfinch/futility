@@ -32,3 +32,15 @@ type IResizeArray<'a> = System.Collections.Generic.IList<'a>
 type Pair<'k, 'v> = System.Collections.Generic.KeyValuePair<'k, 'v>
 type oseq = System.Collections.IEnumerable
 type Agent<'a> = MailboxProcessor<'a>
+type Stack<'a> = System.Collections.Generic.Stack<'a>
+
+// Construction
+
+let inline list (x : #seq<_>) = List.ofSeq x
+let inline stack (x : #seq<_>) = Stack(x)
+let inline pair x y = Pair(x, y)
+
+// Patterns
+
+let inline (|Pair|) (p : Pair<'k, 'v>) =
+  p.Key, p.Value
